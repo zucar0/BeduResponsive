@@ -1,6 +1,22 @@
+
 body{
-    background-color: brown;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold; /* Tipo de grosor a la fuente */
+    color: white;
+    font-size: 30px;
+    text-shadow: black 2px 2px 2px;
+    background-color:rgb(115, 211, 214) ;
 }
+
+h1{
+    text-shadow: black 4px 4px 4px;
+}
+
+ul{
+    list-style-type: none;
+}
+
 /*Primer MediaQuerie*/
 @media (max-width: 575px){
     body{
