@@ -1,0 +1,9 @@
+body{
+    background-color: brown;
+}
+
+@media (max-width: 575px){
+    body{
+        background-color: chocolate;
+    }
+}
