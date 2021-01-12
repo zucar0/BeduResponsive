@@ -1,7 +1,7 @@
 body{
     background-color: brown;
 }
-
+/*Primer MediaQuerie*/
 @media (max-width: 575px){
     body{
         background-color: chocolate;
