@@ -22,34 +22,78 @@ ul {
 
 /* Aquí hay breakpoints porque cuando encuentre estas medidas algo ya va a cambiar */
 
+/*150 - 320: Smartphone*/
+@media screen and (min-width: 150px) and (max-width: 319px) {
+    /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+    body {
+      background-color:darkorange;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold; /* Tipo de grosor a la fuente */
+        color:darkorchid;
+        font-size: 15px;
+        text-shadow: none;  
+    }
+      h1 {
+        text-shadow: none;
+      }
+  }
+
 /*320 - 480: Smartphone*/
-@media screen and (min-width: 150px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
   body {
     background-color: chartreuse;
+    font-size: 20px;
+  }
+}
+/*480 - 767: Smartphone*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+    body {
+      background-color:#6851ff;
+      font-size: 25px;
+    }
+  }
+/*768 -1024: Ipad Portrait*/
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+  body {
+    background-color: #1dff96;
+    font-size: 30px;
+
   }
 }
 
 /*768 -1024: Ipad Portrait*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
-  body {
-    background-color: cornflowerblue;
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+    /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+    body {
+      background-color: #ff1d1d;
+      font-size: 32px;
+  
+    }
   }
-}
 
 /*1024: Desktop and Laptop*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1084px){
   /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
   body {
-    background-color: crimson;
+    background-color: rgb(20, 23, 220);
+    font-size: 35px;
+
   }
 }
 
 /*1284: Wide Screen*/
-@media screen and (min-width: 1084px) {
+@media screen and (min-width: 1085px) {
   /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
   body {
-    background-color: darkblue;
+    background-color: #fbff00;
+    font-size: 40px;
+
   }
 }
+
+/*Reto 1. Crea diferentes colores con los @mediaqueries 
+    y hacer que cambie el tamaño de letras y fuente*/
