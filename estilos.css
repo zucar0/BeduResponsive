@@ -1,25 +1,55 @@
-
-body{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold; /* Tipo de grosor a la fuente */
-    color: white;
-    font-size: 30px;
-    text-shadow: black 2px 2px 2px;
-    background-color:rgb(115, 211, 214) ;
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold; /* Tipo de grosor a la fuente */
+  color: white;
+  font-size: 30px;
+  text-shadow: black 2px 2px 2px;
+  background-color: rgb(115, 211, 214);
 }
-
-h1{
-    text-shadow: black 4px 4px 4px;
+h1 {
+  text-shadow: black 4px 4px 4px;
 }
-
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-
-/*Primer MediaQuerie*/
+/*Primer MediaQuerie
 @media (max-width: 575px){
     body{
         background-color: yellow;
     }
+}*/
+
+/* Aquí hay breakpoints porque cuando encuentre estas medidas algo ya va a cambiar */
+
+/*320 - 480: Smartphone*/
+@media screen and (min-width: 150px) and (max-width: 480px) {
+  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+  body {
+    background-color: chartreuse;
+  }
+}
+
+/*768 -1024: Ipad Portrait*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+  body {
+    background-color: cornflowerblue;
+  }
+}
+
+/*1024: Desktop and Laptop*/
+@media screen and (min-width: 1024px) {
+  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+  body {
+    background-color: crimson;
+  }
+}
+
+/*1284: Wide Screen*/
+@media screen and (min-width: 1084px) {
+  /*Todo lo que queremos que cambie y como quiero que cambie va aquí dentro*/
+  body {
+    background-color: darkblue;
+  }
 }
